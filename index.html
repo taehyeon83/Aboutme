@@ -2,45 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기소개</title>
 </head>
 <body>
     <div>
-    <div style="border-bottom: 1px solid black;">
-            <img src="img/me.jpg" width="500px;" >
+    <header>
+      <h2>[ About Me ]</h2>
+    </header>
+  </div>
+  <div id="main">
+          <nav class="me">
+          <img class="avata "src="img/me.jpg" width="400px;" height="400px;"  >
+        </nav>
+        <nav class="intro">
+          <u style="text-decoration-color:darkorange;"><strong>다재다능</strong></u> 한<br>
+          <u style="text-decoration-color:darkorange;"><strong>풀스택 개발자</strong></u> 가 되고싶은<br>
+          <u style="text-decoration-color:darkorange;"><strong >정태현</strong></u> 입니다!<br>
+          <nav class="logo">
+            <a href="https://velog.io/@wxg5483" target="_blank"><img class="velog-logo" src="img/velog-logo.jpg" width="50px;" height="50px;"/></a>
+            <a href="https://github.com/taehyeon83" target="_blank"><img class="github-logo" src="img/github-logo.png" width="50px;" height="50px;"/></a>
+            
+          </nav>
+        </nav>
+        
         </div>
 
-        <div style="border-bottom: 1px solid black;">
-        <ul><h2>저를 소개합니다</h2></ul>
-        <ol>이름 : 정태현</ol>
-        <ol>지역 : 인천</ol>
-        <ol>E-Mail : wxg5483@naver.com</ol>
-        <ol>참조 : <a href="https://velog.io/@wxg5483" target="_blank">Blog</a></ol>
-        <ol>소개 : 헬스, 요가, 축구, 음악 제작, 포토샵, 전시회관람 등 다양한 취미와 하고 싶은 게 많은 정태현입니다! </ol>
-        </div>
-
-        <div>
-        <ul style="border-bottom: 1px solid black;">
-          <h3><strong>나의 목표</strong></h3>
-          <li>부지런하고 다재다능한 <u>풀스택 개발자</u></li><br>
+        <div id="grid">
+        <section class="profile">
+        <ul>
+        <ll>이름 : 정태현</ll><br>
+        <ll>지역 : 인천</ll><br>
+        <ll>소개 : 헬스, 요가, 축구, 음악 제작, 전시회관람 등 <br>다양한 취미와 하고 싶은 게 많은 사람입니다. </ll><br>
         </ul>
-        <ul style="border-bottom: 1px solid black;">
-          <h3><strong>목표를 이루기 위해 부트캠프에서 꼭 얻고 싶은 것</strong></h3>
+        </section>
+        <section class="goal">
+        <ul>
+          <h3><strong>목표를 이루기 위해 얻고 싶은 것</strong></h3>
           <li>소통</li>
           <li>실력향상</li>
-          <li>성실함</li>
-          <br>
+          <li>성실함</li><br>
         </ul>
-        <ul style="border-bottom: 1px solid black;">
-            <strong><h3>목표를 이루기 위한 다짐</h3></strong>
+        </section>
+        <section class="plan">
+        <ul>
+            <h3><strong>목표를 이루기 위한 다짐</strong></h3>
             <li>적극적으로 질문하고 아는 부분은 답변한다</li>
             <li>스스로 고민하는 시간을 가진다</li>
             <li>새벽 운동을 하며 아침을 시작한다</li>
             <br>
         </ul>
-    </div>
+        </section>
     </div>
 
 </body>
